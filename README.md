@@ -19,11 +19,12 @@ The project is structured into two main phases using Python:
 * **Data Cleaning:** Handling missing records and incosistent strutural data using Pandas and NumPy.
 * **Feature Encoding & Scaling:** Preparing categorical variables and normalizing numerical scales using Scikit-Learn.
 * **Class Imbalance Handling:** Addressing the natural disproportion between good and bad payers to ensure future models don't biasedly favor the majority class.
+* **Train/Test Split:** Partitioned the dataset into training and testing subsets using Scikit-Learn to ensure an unbiased evaluation of future machine learning models and prevent data leakage.
 
 ## Technologies Used 
 * **Python** (Core workflow)
 * **Pandas** (Data manipulation, profiling and cleaning)
-* **Scikit-Learn** (Preprocessing, transformers, LabelEncoder and OneHotEncoder)
+* **Scikit-Learn** (Preprocessing transformers, LabelEncoder, OneHotEncoder and Model Selection)
 * **Plotly** (Interactive data visualization and dynamic plotting)
 * **Matplotlib & Seaborn** (Static data visualization)
 
